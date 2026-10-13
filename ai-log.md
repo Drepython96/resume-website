@@ -30,4 +30,4 @@ I requested step-by-step help completing the career-fair resume website assignme
 - Did not treat deployment as verified before testing a public URL.
 
 ## Verification
-I checked the local desktop and narrow layouts, opened the resume PDF, tested section navigation and both GitHub links, and tested keyboard focus and the skip link. The public deployment still needs verification. I remain responsible for reviewing the resume statements and final submission.
+I checked the local desktop and narrow layouts, opened the resume PDF, tested section navigation and both GitHub links, and tested keyboard focus and the skip link. I opened the public GitHub Pages website and reported that the resume opens. A screenshot confirmed the public introduction and desktop design. Final live-link checks accompany the deployment records. I remain responsible for reviewing the resume statements and final submission.
