@@ -5,15 +5,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
- 
-
-  
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  
-  <link rel="stylesheet" href="/assets/css/style.css" />
   <title>Deandre Skelton | Aspiring Software Engineer</title>
 
  
@@ -31,121 +22,54 @@
   <meta name="theme-color" content="#ffffff" />
   <meta name="robots" content="index, follow" />
   
+<style>
+:root{--ink:#183031;--muted:#4e6566;--teal:#09685f;--paper:#f5f8f7;--line:#d9e5e0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--teal);text-underline-offset:4px;overflow-wrap:anywhere}a:hover{color:#03443c}a:focus-visible{outline:3px solid #ba6900;outline-offset:5px;border-radius:3px}
+.skip-link{position:absolute;left:12px;top:-100px;padding:10px;background:white;z-index:10}.skip-link:focus{top:12px}
+.site-nav{position:fixed;inset:0 auto 0 0;width:250px;background:white;border-right:1px solid var(--line);padding:40px 28px;overflow-y:auto}
+.site-name{display:block;font-size:24px;font-weight:750;text-decoration:none;line-height:1.25}.site-name span{display:block;font-size:13px;color:var(--muted);font-weight:400;margin-top:12px}
+.nav-links{display:flex;flex-direction:column;gap:8px;margin-top:34px}.nav-links a{padding:9px 0;text-decoration:none;font-weight:600}
+main{margin-left:250px}section{padding:44px clamp(24px,6vw,90px);scroll-margin-top:20px}.container{max-width:940px;margin:auto}
+#intro{background:#e2efe9;padding-top:85px;padding-bottom:75px}.overlay{display:none}.eyebrow{font-size:12px;font-weight:700;letter-spacing:2px;color:var(--teal)}
+h1{font-size:clamp(36px,5vw,62px);line-height:1.12;letter-spacing:-2px;margin:20px 0}h1 span{color:var(--teal)}.intro-role{font-size:23px;font-weight:600;margin:20px 0 12px}.intro-summary{max-width:700px;color:var(--muted)}
+.social{margin:24px 0}.buttons{display:flex;gap:12px;flex-wrap:wrap}.buttons a{display:inline-block;padding:10px 20px;border:1px solid var(--teal);border-radius:7px;text-decoration:none;font-weight:650}.readme{background:var(--teal);color:white}.readme:hover{background:#03443c;color:white}
+.page-title{max-width:940px;margin:0 auto 24px;font-size:30px;line-height:1.25}.card{background:white;border:1px solid var(--line);border-radius:12px;margin:18px 0;overflow:hidden}.card-content{padding:26px 30px}.card-title{font-size:23px;margin:0 0 12px;line-height:1.35;color:var(--teal)}
+.role{font-weight:600;color:var(--muted)}.card-action{border-top:1px solid var(--line);padding:12px 30px;color:var(--muted);font-size:15px}h3{font-size:21px;line-height:1.35;margin:24px 0 10px}p{margin:12px 0}ul{padding-left:23px}li{margin:6px 0}#contact .container{background:white;border:1px solid var(--line);border-radius:12px;padding:24px 30px}footer{padding:28px;text-align:center;font-size:13px;color:var(--muted);border-top:1px solid var(--line)}
+@media(max-width:800px){.site-nav{position:static;width:100%;padding:22px 24px;border-right:0;border-bottom:1px solid var(--line)}.site-name{font-size:23px}.site-name span{margin-top:6px}.nav-links{flex-direction:row;flex-wrap:wrap;gap:6px 20px;margin-top:16px}.nav-links a{font-size:14px;padding:5px 0}main{margin-left:0}section{padding:34px 22px}#intro{padding:44px 22px}h1{letter-spacing:-1px}.card-content{padding:22px}.card-action{padding:12px 22px}.intro-role{font-size:21px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.site-nav,.skip-link,.buttons,.social{display:none}main{margin:0}section{padding:16px;background:white!important}.card{break-inside:avoid}body{font-size:12px}h1{font-size:30px}}
+</style>
 </head>
 
 <body>
  
   
   
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
-
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-         <span>Deandre Skelton</span>
-        </a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-
-      <li class="bold">
-        
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-
-      <li class="bold">
-        
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-      
-      <li class="bold">
-        
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-
-      <li class="bold">
-        
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-
-      <li class="bold">
-        
-        
-        <a aria-label="Open Deandre Skelton's resume in a new tab" href="resume.pdf" target="_blank" rel="noopener noreferrer" class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#intro" class="teal-text">Deandre Skelton</a><span class="black-text">Aspiring Software Engineer</span>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a class="site-name" href="#intro">Deandre Skelton<span>Computer Science Student</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#experience">Experience</a>
+      <a href="#projects">Projects</a><a href="#skills">Skills</a>
+      <a href="#education">Education</a><a href="#contact">Contact</a>
+      <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume PDF (new tab)</a>
     </div>
   </nav>
 
   
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open Deandre Skelton's resume in a new tab" href="resume.pdf" target="_blank" rel="noopener noreferrer" class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  
-  <main>
+  <main id="main-content" tabindex="-1">
     
     <section id="intro" class="section scrollspy full-height">
       <div class="overlay"></div>
       <div class="container">
         <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+          <div class="content section-padding valign">
             <div class="caption">
-              <h2>Hi, I'm <span class="teal">Deandre Skelton.</span></h2>
-              <h5>Computer Science Student &amp; Aspiring Software Engineer</h5>
+              <p class="eyebrow">COMPUTER SCIENCE / FALL 2027</p><h1>Hi, I'm <span>Deandre Skelton.</span></h1>
+              <p class="intro-role">Aspiring Software Engineer</p>
               
-             <h5>Computer Science student at the University of Michigan-Flint, expecting to graduate in Fall 2027 and pursuing a career in software engineering.</h5>
+             <p class="intro-summary">Computer Science student at the University of Michigan-Flint, expecting to graduate in Fall 2027 and pursuing a career in software engineering.</p>
             </div>
             <div class="social">
               
@@ -164,7 +88,7 @@
 
     
     <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
+      <h2 class="page-title">About</h2>
       <div class="container flow-text">
                 
         <p>
@@ -188,11 +112,11 @@
 
     
 <section id="experience" class="section scrollspy">
-  <h3 class="page-title white-text teal">Experience</h3>
+  <h2 class="page-title">Experience</h2>
   <div class="container">
     <div class="card">
       <div class="card-content">
-        <span class="card-title teal-text">Mott Community College</span>
+        <h3 class="card-title">Mott Community College</h3>
         <div class="role brown-text text-darken-2">
           Student Assistant / Computer Lab Monitor
         </div>
@@ -211,12 +135,12 @@
 
     
 <section id="projects" class="section scrollspy">
-  <h3 class="page-title white-text teal">Projects</h3>
+  <h2 class="page-title">Projects</h2>
   <div class="container">
 
     <div class="card">
       <div class="card-content">
-        <h4 class="card-title teal-text">UNO Card Game</h4>
+        <h3 class="card-title teal-text">UNO Card Game</h3>
         <p>
           Collaborated with a group to develop a graphical UNO game
           where players could draw cards, match colors and numbers,
@@ -231,7 +155,7 @@
 
     <div class="card">
       <div class="card-content">
-        <h4 class="card-title teal-text">Sudoku Solver</h4>
+        <h3 class="card-title teal-text">Sudoku Solver</h3>
         <p>
           Collaborated with a group to develop a program
           that solves Sudoku puzzles.
@@ -248,22 +172,22 @@
 
    
 <section id="skills" class="section scrollspy">
-  <h3 class="page-title white-text teal">Skills</h3>
+  <h2 class="page-title">Skills</h2>
   <div class="container">
     <div class="card">
       <div class="card-content">
-        <h4>Programming Languages</h4>
+        <h3>Programming Languages</h3>
         <ul>
           <li>Python</li>
           <li>C++</li>
         </ul>
 
-        <h4>Tools</h4>
+        <h3>Tools</h3>
         <ul>
           <li>GitHub</li>
         </ul>
 
-        <h4>Professional Skills</h4>
+        <h3>Professional Skills</h3>
         <ul>
           <li>Team collaboration</li>
         </ul>
@@ -274,13 +198,11 @@
 
     
 <section id="education" class="section scrollspy">
-  <h3 class="page-title white-text teal">Education</h3>
+  <h2 class="page-title">Education</h2>
   <div class="container">
     <div class="card">
       <div class="card-content">
-        <span class="card-title teal-text">
-          University of Michigan-Flint
-        </span>
+        <h3 class="card-title">University of Michigan-Flint</h3>
         <p><b>Program:</b> Computer Science</p>
         <p><b>Expected graduation:</b> Fall 2027</p>
       </div>
@@ -289,10 +211,10 @@
 </section>
     
 <section id="contact" class="section scrollspy">
-  <h3 class="page-title white-text teal">Contact</h3>
+  <h2 class="page-title">Contact</h2>
   <div class="container">
     <p>
-      <b>Email:</b>
+      <b>Email:</b> 
       <a href="mailto:sdeandre@umich.edu">sdeandre@umich.edu</a>
     </p>
     <p>
@@ -307,29 +229,8 @@
     </p>
   </div>
 </section>
+    <footer>Deandre Skelton &middot; Computer Science &middot; Expected graduation Fall 2027</footer>
   </main>
-
-  
-  
-
-
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
-  </script>
 </body>
 
 </html>
