@@ -37,10 +37,21 @@ unused photos and resume in assets, sample previews in examples, and the origina
 owner's code-of-conduct email. Cleanup replaces README and robots.txt, updates
 the contact email, and removes the unused assets and examples directories.
 Keep the original LICENSE copyright notice; it is attribution, not a resume claim.
-Confirm these prepared changes are applied in GitHub Desktop before merging.
-Live GitHub Pages URL, deployed resume PDF, deployed links, and agreement with
-the final main branch must be verified after deployment. Record those results
-here before final submission. No public deployment pass is claimed yet.
+Application check: GitHub Desktop on test-website showed the documentation and
+unused asset deletions before the testing/cleanup commit and pull request.
+DEPLOYMENT RECORD
+Public URL: https://drepython96.github.io/resume-website/
+Resume URL: https://drepython96.github.io/resume-website/resume.pdf
+Pages source: Deploy from a branch, main, / (root), HTTPS enabled.
+The student opened the public website on October 13, 2026 and reported that the
+resume opens. The public-page screenshot showed the personalized introduction
+and same desktop design as the tested local page.
+Publishing source is main; the website HTML previously uploaded matches the
+prepared/tested styling version. A byte-for-byte live-source comparison was
+not performed because external fetch access was unavailable to the assistant.
+Section and professional links were manually tested locally. Repeat those
+checks on the live page as the final deployment check; no separate live-link
+pass is claimed in this record.
 
 This file uses descriptive notes as local-view evidence. Deployment evidence
 will be added after the public page is tested.
