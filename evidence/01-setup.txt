@@ -1,0 +1,19 @@
+Initial setup evidence - Deandre Skelton
+
+Parent repository: https://github.com/AmalChUm/websitetemplate
+Fork URL: https://github.com/Drepython96/resume-website
+Local folder: C:\Users\Owner\resume-website
+Default branch: main (renamed from master during setup)
+Client: GitHub Desktop
+Fork workflow selection: For my own purposes
+Initial local URL: file:///C:/Users/Owner/resume-website/index.html
+
+Initial inspection: The template opened locally with its original biography,
+projects, and navigation. The local page was unstyled and some images were
+broken. The template used root-relative asset paths and protocol-relative
+stylesheet URLs. The final version uses CSS included in index.html.
+
+Recorded from the setup steps performed during the guided assignment session.
+This file is included here because the earlier setup record was in the separate
+Documents/resume-website-contribution/evidence submission folder rather than
+in this uploaded repository ZIP.
