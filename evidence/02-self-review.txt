@@ -1,0 +1,46 @@
+Website self-review - Deandre Skelton
+Date: October 13, 2026
+Repository: https://github.com/Drepython96/resume-website
+Local site: C:\Users\Owner\resume-website\index.html
+
+CONFIRMED LOCAL CHECKS
+Desktop view: PASS. The page displayed the personalized introduction, a sidebar,
+readable text, consistent teal styling, and the About section in Microsoft Edge.
+Narrow view: PASS. Navigation moved above the introduction; visible text fit the
+window. This was a resized desktop browser, not a physical phone test.
+Navigation: PASS. The student confirmed all section menu links work.
+Professional links: PASS. The student confirmed both Contact GitHub links open
+the correct profile and repository pages.
+Resume PDF: PASS. The PDF opened from the repository root in the browser.
+Keyboard focus: PASS. Tab displayed a visible orange outline around a link.
+Skip link: PASS. The link appeared on keyboard focus; after Enter, the next Tab
+focused GitHub Profile in the main content, bypassing the navigation.
+
+SOURCE REVIEW
+Active HTML: Original name, social identities, tracking scripts, verification
+token, preview image, and favicon references were removed.
+Content: Education, graduation date, languages, projects, contributions, and
+employment dates match the information supplied by the student.
+Email: HTML destination is mailto:sdeandre@umich.edu. Launching an email app has
+not been confirmed; sending a message is not needed for this check.
+Images: No images remain in the active website, so image alt text is not applicable.
+Security: The generated active HTML contains no passwords, API tokens, or private
+credentials. The public email and GitHub identity were supplied for this website.
+Readability: Active text reviewed for spelling, grammar, and template placeholders.
+HTML checks: Unique IDs, expected sections, internal anchor destinations, and
+resume.pdf references passed source checks.
+
+LIMITS AND FOLLOW-UP
+Repository audit: The uploaded active HTML matches the tested styling update.
+It references no assets or examples. The audit identified an old README,
+unused photos and resume in assets, sample previews in examples, and the original
+owner's code-of-conduct email. Cleanup replaces README and robots.txt, updates
+the contact email, and removes the unused assets and examples directories.
+Keep the original LICENSE copyright notice; it is attribution, not a resume claim.
+Confirm these prepared changes are applied in GitHub Desktop before merging.
+Live GitHub Pages URL, deployed resume PDF, deployed links, and agreement with
+the final main branch must be verified after deployment. Record those results
+here before final submission. No public deployment pass is claimed yet.
+
+This file uses descriptive notes as local-view evidence. Deployment evidence
+will be added after the public page is tested.
